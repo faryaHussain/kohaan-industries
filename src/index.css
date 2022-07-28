@@ -1,3 +1,11 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
 * {
   margin: 0;
   padding: 0;
@@ -48,6 +56,8 @@ nav ul li a {
 }
 nav ul li a:hover {
   background: lightblue;
+  /* add shadow */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 
 nav ul ul {
@@ -135,14 +145,22 @@ nav ul li:hover > ul {
 .col-4 img {
   width: 100%;
 }
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .title {
-  text-align: center;
-  margin: 0 auto 80px;
-  position: relative;
   line-height: 60px;
   color: #555;
+  border-bottom: 5px solid #ff523b;
+  border-radius: 5px;
+  max-width: fit-content;
 }
-.title::after {
+.products {
+  margin-top: 50px;
+}
+/* .title::after {
   content: "";
   background: #ff523b;
   width: 80px;
@@ -152,7 +170,7 @@ nav ul li:hover > ul {
   bottom: 0%;
   left: 50%;
   transform: translate(-50%);
-}
+} */
 h4 {
   color: #555;
   font-weight: normal;
