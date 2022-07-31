@@ -91,7 +91,7 @@ const ContactUs = () => {
                     </li>
                     <br />
                     <li>
-                      Address: Abdullah Trade Center Kuchehry Roead Sialkot
+                      Address: Abdullah Trade Center Kutchery Road Sialkot
                     </li>
                   </ul>
                 </div>
