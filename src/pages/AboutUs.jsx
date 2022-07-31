@@ -142,7 +142,7 @@ const AboutUs = () => {
                 <a href="/Product2">Shorts & TankTop</a>
               </li>
               <li>
-                <a href="products3">SweaterShirts & Tracksuits</a>
+                <a href="/products3">SweaterShirts & Tracksuits</a>
               </li>
             </ul>
           </div>
@@ -160,11 +160,7 @@ const AboutUs = () => {
               </li>
 
               <li>
-                <a
-                  target="_blank"
-                  rel="noreferrer"
-                  href="mailto:kohaanindustries@gmail.com"
-                >
+                <a href="mailto:kohaanindustries@gmail.com">
                   Email: kohaanindustries@gmail.com
                 </a>
               </li>

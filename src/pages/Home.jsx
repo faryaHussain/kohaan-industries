@@ -53,14 +53,14 @@ const Home = () => {
                   Gear, FitnessWear Accessories, Martial Arts, Sports Wear and
                   team wear, all range of gloves along fitness apparel.
                 </p>
-                <a href="/products" className="btn">
-                  Explore Now &#8594;
-                </a>
               </div>
               <div className="col-2">
                 <img src="images/j2.jpg" alt="" />
               </div>
             </div>
+            <a href="/products" className="btn">
+              Explore Now &#8594;
+            </a>
           </div>
         </div>
       </div>

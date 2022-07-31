@@ -243,10 +243,10 @@ h4 {
   background-color: #18181a;
 }
 .inner_foter {
-  display: black;
+  display: flex;
   margin: 0 auto;
-  width: 1100px;
-  height: 100px;
+  width: 100vw;
+  height: auto;
   background-color: #18181a;
 }
 .inner_foter .logo_container {
@@ -317,4 +317,22 @@ h4 {
 .conntact_info h2 {
   font-size: 40px;
   color: rgb(0, 13, 128);
+}
+/* make a media query for mobile devices */
+@media screen and (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  .col-2 > img {
+    width: 100%;
+    height: 100%;
+  }
+  .inner_foter {
+    flex-direction: column;
+    align-items: center;
+  }
+  .inner_foter .logo_container {
+    margin-bottom: 20px;
+    margin-left: 60px;
+  }
 }
